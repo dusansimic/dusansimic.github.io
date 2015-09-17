@@ -6,15 +6,16 @@ html, body {
 	color: black;
 }
 
-
-
-
-
-
-
-table.menu_table {
-	border: 1px;
+body {
+	width: 800px;
 }
+
+
+
+
+
+
+
 
 a.btn_link, a.btn_link:link, a.btn_link:visited, a.btn_link:active {
 	text-decoration: underline;
