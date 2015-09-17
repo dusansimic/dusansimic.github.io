@@ -26,3 +26,13 @@ a.btn_link:hover {
 	text-decoration: none;
 	color: black;
 }
+
+a, a:link, a:visited, a:active {
+	text-decoration: underline;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
