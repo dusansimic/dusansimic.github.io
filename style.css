@@ -1,0 +1,22 @@
+html, body {
+	font-family: arial;
+	font-size: 14px;
+	margin: 0px 0px 0px 0px;
+	background-color: rgb(234, 234, 234);
+	color: black;
+}
+
+
+
+
+
+
+a.btn_link, a.btn_link:link, a.btn_link:visited, a.btn_link:active {
+	text-decoration: underline;
+	color: black;
+}
+
+a.btn_link:hover {
+	text-decoration: none;
+	color: black;
+}
