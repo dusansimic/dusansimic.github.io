@@ -21,19 +21,17 @@ div.content {
 
 
 
+
 h1.pg_title {
-	text-align: left;
-	float: left;
+	position: relative;
+	top: 10px;
+	left: 10px;
 }
 
 table.menu_table {
-	/*
 	position: relative;
 	top: 10px;
 	right: 10px;
-	*/
-	text-align: right;
-	float: right;
 }
 
 a.btn_link, a.btn_link:link, a.btn_link:visited, a.btn_link:active {
