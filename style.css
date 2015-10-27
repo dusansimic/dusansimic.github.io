@@ -1,0 +1,84 @@
+html, body {
+	font-family: Source Code Pro;
+	font-size: 16px;
+	margin: 0px 0px 0px 0px;
+	background-color: rgb(86, 86, 86);
+	color: rgb(222, 222, 222);
+}
+
+body {
+	width: 100%;
+}
+
+div.content {
+	height: 100%;
+	width: 60%;
+	position: relative;
+	top: 10px;
+	left: 20%;
+}
+
+div.header {
+	width: 100%;
+	background-color: rgb(33, 33, 33);
+	border-radius: 5px 5px 5px 5px;
+}
+
+div.body {
+	width: 100%;
+	min-height: 100%;
+	margin-bottom: -72px;
+}
+
+div.footer {
+	display: block;
+	width: 100%;
+	height: 72px;
+	/*
+	position: absolute;
+	bottom: 0px;
+	*/
+}
+
+h1.pg_title {
+	display: inline-block;
+	font-size: 34px;
+	font-weight: normal;
+	padding-left: 10px;
+}
+
+table.menu_table {
+	display: inline-block;
+	float: right;
+	position: relative;
+	margin-top: 30px;
+}
+
+
+
+img.photoFrame {
+	border-radius: 5px 5px 5px 5px;
+}
+
+a.btn_link, a.btn_link:link, a.btn_link:visited, a.btn_link:active {
+	text-decoration: /* underline */ none;
+	color: rgb(222, 222, 222);
+	border: 1px solid rgb(222, 222, 222);
+	border-radius: 2px;
+}
+
+a.btn_link:hover {
+	text-decoration: none;
+	color: rgb(222, 222, 222);
+	box-shadow: 0 0 10px rgb(222, 222, 222);
+}
+
+a, a:link, a:visited, a:active {
+	text-decoration: underline;
+	color: rgb(222, 222, 222);
+}
+
+a:hover {
+	text-decoration: none;
+	color: rgb(222, 222, 222);
+}
