@@ -72,8 +72,8 @@ a.btn_link:hover {
 	background-color: rgb(200, 200, 200);/*
 	box-shadow: 0 0 10px rgb(222, 222, 222);*/
 	color: rgb(86, 86, 86);
-	display: block;
-	width: 50px;
+	display: inline-block;
+	width: 70px;
 
 }
 
