@@ -5,7 +5,7 @@ html, body {
 	background-color: rgb(86, 86, 86);
 	color: rgb(222, 222, 222);
 	width: 100%;
-	background-image: src(background.jpg);
+	background-image: src("background.jpg");
 }
 
 div.content {
