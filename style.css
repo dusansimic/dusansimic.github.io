@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "LocalFont";
-	src: url();
+	src: url(font.ttf) format("truetype");
 }
 
 html, body {
@@ -70,6 +70,7 @@ a.btn_link, a.btn_link:link, a.btn_link:visited, a.btn_link:active {
 	color: rgb(86, 86, 86);
 	display: inline-block;
 	width: 60px;
+	text-align: center;
 }
 
 a.btn_link:hover {
@@ -79,7 +80,7 @@ a.btn_link:hover {
 	color: rgb(86, 86, 86);
 	display: inline-block;
 	width: 60px;
-
+	text-align: center;
 }
 
 a, a:link, a:visited, a:active {
