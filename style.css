@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "LocalFont";
+	src: url();
+}
+
 html, body {
 	font-family: Arial;
 	font-size: 16px;
@@ -63,8 +68,8 @@ a.btn_link, a.btn_link:link, a.btn_link:visited, a.btn_link:active {
 	border: 1px solid rgb(222, 222, 222);*/
 	border-radius: 2px;
 	color: rgb(86, 86, 86);
-	display: block;
-	width: 50px;
+	display: inline-block;
+	width: 70px;
 }
 
 a.btn_link:hover {
