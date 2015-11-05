@@ -4,10 +4,8 @@ html, body {
 	margin: 0px 0px 0px 0px;
 	background-color: rgb(86, 86, 86);
 	color: rgb(222, 222, 222);
-}
-
-body {
 	width: 100%;
+	background-image: src(background.jpg);
 }
 
 div.content {
