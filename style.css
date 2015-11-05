@@ -69,7 +69,7 @@ a.btn_link, a.btn_link:link, a.btn_link:visited, a.btn_link:active {
 	border-radius: 2px;
 	color: rgb(86, 86, 86);
 	display: inline-block;
-	width: 70px;
+	width: 60px;
 }
 
 a.btn_link:hover {
@@ -78,7 +78,7 @@ a.btn_link:hover {
 	box-shadow: 0 0 10px rgb(222, 222, 222);*/
 	color: rgb(86, 86, 86);
 	display: inline-block;
-	width: 70px;
+	width: 60px;
 
 }
 
