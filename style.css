@@ -5,7 +5,6 @@ html, body {
 	background-color: rgb(86, 86, 86);
 	color: rgb(222, 222, 222);
 	width: 100%;
-	background-image: src("background.jpg");
 }
 
 div.content {
@@ -60,15 +59,18 @@ img.photoFrame {
 
 a.btn_link, a.btn_link:link, a.btn_link:visited, a.btn_link:active {
 	text-decoration: /* underline */ none;
-	color: rgb(222, 222, 222);
-	border: 1px solid rgb(222, 222, 222);
+	background-color: rgb(222, 222, 222);/*
+	border: 1px solid rgb(222, 222, 222);*/
 	border-radius: 2px;
+	color: rgb(86, 86, 86);
 }
 
 a.btn_link:hover {
 	text-decoration: none;
-	color: rgb(222, 222, 222);
-	box-shadow: 0 0 10px rgb(222, 222, 222);
+	background-color: rgb(200, 200, 200);/*
+	box-shadow: 0 0 10px rgb(222, 222, 222);*/
+	color: rgb(86, 86, 86);
+
 }
 
 a, a:link, a:visited, a:active {
