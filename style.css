@@ -23,8 +23,10 @@ div.content {
 }
 
 div.header {
-	width: 100%;
-	box-shadow: 0px 0px 2px 0px rgb(222, 222, 222);
+	width: 100%;/*
+	background-color: rgb(33, 33, 33);
+	opacity: 0.7;*/
+	box-shadow: 0px 1px rgb(222, 222, 222);
 }
 
 div.body {
