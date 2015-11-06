@@ -63,9 +63,9 @@ img.photoFrame {
 }
 
 a.btn_link, a.btn_link:link, a.btn_link:visited, a.btn_link:active {
-	text-decoration: /* underline */ none;
-	background-color: rgb(222, 222, 222);/*
-	border: 1px solid rgb(222, 222, 222);*/
+	text-decoration: /* underline */ none;/*
+	background-color: rgb(222, 222, 222);*/
+	border: 1px solid rgb(222, 222, 222);
 	border-radius: 2px;
 	color: rgb(86, 86, 86);
 	display: inline-block;
@@ -74,9 +74,9 @@ a.btn_link, a.btn_link:link, a.btn_link:visited, a.btn_link:active {
 }
 
 a.btn_link:hover {
-	text-decoration: none;
-	background-color: rgb(200, 200, 200);/*
-	box-shadow: 0 0 10px rgb(222, 222, 222);*/
+	text-decoration: none;/*
+	background-color: rgb(200, 200, 200);*/
+	box-shadow: 0 0 10px rgb(222, 222, 222);
 	color: rgb(86, 86, 86);
 	display: inline-block;
 	width: 60px;
