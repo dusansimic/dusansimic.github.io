@@ -6,8 +6,9 @@
 html, body {
 	font-family: Arial;
 	font-size: 16px;
-	margin: 0px 0px 0px 0px;
-	background-color: rgb(86, 86, 86);
+	margin: 0px 0px 0px 0px;/*
+	background-color: rgb(86, 86, 86);*/
+	background-image: src("background.jpg");
 	color: rgb(222, 222, 222);
 	width: 100%;
 }
@@ -22,7 +23,7 @@ div.content {
 
 div.header {
 	width: 100%;
-	background-color: rgb(33, 33, 33);
+	background-color: rgb(33, 33, 33, 0.66);
 	border-radius: 5px 5px 5px 5px;
 }
 
