@@ -24,7 +24,7 @@ div.content {
 
 div.header {
 	width: 100%;
-	background-color: rgb(33, 33, 33);
+	background-color: rgb(33, 33, 33, 0.8);
 	border-radius: 5px 5px 5px 5px;
 }
 
