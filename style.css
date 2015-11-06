@@ -8,7 +8,7 @@ html, body {
 	font-size: 16px;
 	margin: 0px 0px 0px 0px;/*
 	background-color: rgb(86, 86, 86);*/
-	background-image: src("background.jpg");
+	background-image: url("background.jpg");
 	color: rgb(222, 222, 222);
 	width: 100%;
 }
