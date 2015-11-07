@@ -60,6 +60,11 @@ table.menu_table {
 	margin-top: 30px;
 }
 
+img.photoFrame {/*
+	border-radius: 5px 5px 5px 5px;*/
+	box-shadow: inset 0 0 10px rgb(0, 0, 0, 1);
+}
+
 a.btn_link, a.btn_link:link, a.btn_link:visited, a.btn_link:active {
 	text-decoration: /* underline */ none;/*
 	background-color: rgb(222, 222, 222);*/
