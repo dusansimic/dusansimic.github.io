@@ -57,12 +57,10 @@ div.code_box {
 	color: rgb(200, 200, 200);
 	font-family: monospace;
 	font-size: 14px;
-	margin: 5px 5px 5px 5px;
 	border-radius: 5px 5px 5px 5px;
-}
-
-p.code_text {
-	margin: 5px 5px 5px 5px;
+	width: 500px;
+	display: block;
+	padding: 10px 10px 10px 10px;
 }
 
 h1.pg_title {
