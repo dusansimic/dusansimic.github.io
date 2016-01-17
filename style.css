@@ -58,6 +58,11 @@ div.code_box {
 	font-family: monospace;
 	font-size: 14px;
 	margin: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+p.code_text {
+	margin: 5px 5px 5px 5px;
 }
 
 h1.pg_title {
