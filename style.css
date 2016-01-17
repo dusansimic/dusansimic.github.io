@@ -57,6 +57,7 @@ div.code_box {
 	color: rgb(200, 200, 200);
 	font-family: monospace;
 	font-size: 14px;
+	white-space: pre-line;
 	border-radius: 5px 5px 5px 5px;
 	width: 500px;
 	display: block;
