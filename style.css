@@ -52,6 +52,14 @@ div.footer {
 	*/
 }
 
+div.code_box {
+	background-color: rgb(40, 40, 40);
+	color: rgb(200, 200, 200);
+	font-family: monospace;
+	font-size: 14px;
+	margin: 5px 5px 5px 5px;
+}
+
 h1.pg_title {
 	display: inline-block;
 	font-size: 34px;
