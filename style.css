@@ -37,8 +37,8 @@ iframe.header_frame {
 
 div.body {
 	width: 100%;
-	display: block;
-	/*min-height: 100%;*/
+	/*display: block;*/
+	min-height: 100%;
 	margin-bottom: -72px;
 }
 
