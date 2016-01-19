@@ -20,6 +20,7 @@ div.content {
 	position: relative;
 	top: 10px;
 	left: 20%;
+	display: none;
 }
 
 div.header {
