@@ -9,6 +9,7 @@ html, body {
 	margin: 0px 0px 0px 0px;/*
 	background-color: rgb(86, 86, 86);*/
 	background-image: url("background.jpg");
+	background-size: cover;
   background-attachment: fixed;
 	color: rgb(222, 222, 222);
 	width: 100%;
