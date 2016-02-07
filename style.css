@@ -119,3 +119,26 @@ a:hover {
 	text-decoration: none;
 	color: rgb(222, 222, 222);
 }
+
+a.emailMe_btn, a.emailMe_btn:link, a.emailMe_btn:visited, a.emailMe_btn:active {
+	text-decoration: /* underline */ none;
+	border-radius: 2px;
+	padding: 2px 2px 1px 2px;
+	background-color: rgb(222, 222, 222);
+	color: rgb(0, 0, 0);
+	display: inline-block;
+	text-align: center;
+	width: 80px;
+}
+
+a.emailMe_btn:hover {
+	text-decoration: none;
+	border-radius: 2px;
+	padding: 2px 2px 1px 2px;
+	background-color: rgb(200, 200, 200);
+	box-shadow: 0 0 10px rgb(200, 200, 200);
+	color: rgb(0, 0, 0);
+	display: inline-block;
+	text-align: center;
+	width: 80px;
+}
