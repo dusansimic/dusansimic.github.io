@@ -1,35 +1,39 @@
-<html lang="en">
-	<head>
-		<title>Simić Dušan</title>
-		<link rel="stylesheet" type="text/css" href="./style.css"></link>
-		<link rel="icon" type="favicon/ico" href="./images/favicon.ico"></link>
-		<meta charset="utf-8"></meta>
-	</head>
-	<body>
-		<div class="content">
-			<div class="header">
-				<h1 class="pg_title">Simić Dušan</h1>
-				<table border="0px" cellpadding="2px" class="menu_table"><tr><td><a href="./" class="btn">Home</a>&nbsp;&nbsp;<a href="./projects/" class="btn">Projects</a>&nbsp;&nbsp;<a href="./about/" class="btn">About</a>&nbsp;&nbsp;<a href="./contact/" class="btn">Contact</a></td></tr></table>
-			</div>
-			<div class="body">
-				<div style="float: right; clear: left"><img class="photoFrame" style="float: right; width: auto; max-height: 300px" src="./images/profile.jpg" alt="My photo."></img></div>
-				<p>Welcome to my personal website where you can find all info about me and my projects. To see the projects that I'm currently working on click <a href="./projects/">here</a>.</p>
-				<h3>My goal</h3>
-				<p>My goal is to make everyday life better of people arround me. I've started developing web apps at my age of 13 and now I'm making websites and UI designs for mobile apps for Android. I use cloud services to connect devices with microcontrollers to get many kinds of data.</p>
-				<h3>Open source? Yes, of course!</h3>
-				<p>All of my projects I post here will be open source. If not I will upload them to my mediafire account so you can download bynaries for mostly Windows. All my code for pc apps can be compiled for Windows, Mac, Linux or BSD.</p>
-			</div>
-			<div class="footer">
-				</br>
-				<p>Made by Dušan Simić.</br>Hosted on <a href="http://www.github.com">GitHub</a>.</p>
-			</div>
-		</div>
-		<!--
-		<script type="text/javascript">
-			document.getElementByClassName("body").style.height = $(".content") - $(".header") - $(".footer");
-		</script>
-		-->
-		<script src="http://code.jquery.com/jquery-2.2.3.js" type="text/javascript"></script>
-		<script src="./style.js" type="text/javascript"></script>
-	</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>dušan simić</title>
+    <link rel="stylesheet" type="text/css" href="styles/index.css"/>
+    <!--<script src="https://cdn.jsdelivr.net/emojione/2.2.4/lib/js/emojione.min.js"></script>
+    <link rel="stylesheet" href="https://github.com/Ranks/emojione/blob/master/assets/css/emojione-awesome.css"/>-->
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="body">
+        <div id="info">
+          <div id="pic">
+          </div>
+          <h1 id="my_name">dušan simić</h1>
+          <p id="about">Web developer, hacker, maker, gamer and Linux user.</p>
+          <div class="e1a-coffee" height="32px" width="32px"></div>
+          <div id="social">
+            <a href="https://twitter.com/dusan__simic" class="btn"><span>Twitter</span></a>
+            <a href="https://github.com/dusansimic" class="btn" style="margin-left: 20px"><span>GitHub</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <p>Coding with <img src="images/coffee.png" alt="coffee" draggable="false" height="16px" width="16px"></img>, <img src="images/pizza.png" alt="pizza" draggable="false" height="16px" width="16px"></img> and <img src="images/heart.png" alt="love" draggable="false" height="16px" width="16px"></img> in Novi Sad, Serbia.</p>
+      </div>
+    </div>
+    <!--<script type="text/javascript">
+      var emojione = require('emojione');
+      function convert() {
+        var input = document.getElementById('about').value;
+        var output = emojione.shortnameToImage(input);
+        document.getElementById('<about></about>').innerHTML = output;
+      }
+      convert();
+  </script>-->
+  </body>
 </html>
