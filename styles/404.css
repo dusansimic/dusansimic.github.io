@@ -76,3 +76,13 @@ html, body {
   position: absolute;
   width: 100%;
 }
+
+a, a:visited, a:active, a:default, a:invalid {
+  text-decoration: none;
+  color: #dbdbdb;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #dbdbdb;
+}
