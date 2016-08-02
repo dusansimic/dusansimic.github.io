@@ -1,3 +1,2 @@
-# Website
-Repository of my personal website.
-The main soucre code of all web apps from my website can be found here.
+# Moved to master branch
+This used to be my website branch but then I moved it to master brach so the link could be [https://dusansimic.github.io/](https://dusansimic.github.io/) my link.
