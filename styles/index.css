@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "DejaVu";
+  src: url('../dejavusans.ttf');
+}
+
+@font-face {
+  font-family: "Menlo";
+  src: url('../menlo.ttf');
+}
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "DejaVu";
+}
+
+#wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #282828;
+  color: #dbdbdb;
+}
+
+#body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+#info {
+  display: block;
+}
+
+#pic {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  border: 2px solid #dbdbdb;
+  background: url("../images/profile.jpg") no-repeat;
+  background-size: 165px;
+  margin: 0 auto;
+}
+
+#my_name {
+  text-align: center;
+  margin: 10 auto;
+}
+
+#about {
+  text-align: center;
+  margin: 10 auto;
+}
+
+#social {
+  margin: 10 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn, .btn:active, .btn:hover, .btn:invalid, .btn:visited {
+  text-decoration: none;
+  color: #dbdbdb;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#social .btn {
+  /*
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  */
+  font-size: 24px;
+}
+
+#footer {
+  text-align: center;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+}
+
+a, a:visited, a:active, a:default, a:invalid {
+  text-decoration: none;
+  color: #dbdbdb;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #dbdbdb;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>dušan simić</title>
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
+    <link rel="icon" href="icon.png" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" media="all">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="body">
+        <div id="info">
+          <div id="pic">
+          </div>
+          <h1 id="my_name">dušan simić</h1>
+          <p id="about">Developer, hacker, maker, gamer and Linux user.</p>
+          <div class="e1a-coffee" height="32px" width="32px"></div>
+          <div id="social">
+            <a href="https://twitter.com/dusan__simic" class="btn" style="text-align: center"><!--<span>Twitter</span>--><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://github.com/dusansimic" class="btn" style="margin-left: 20px; text-align: center"><!--<span>GitHub</span>--><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="mailto:simic.dusan@jjzmaj.edu.rs" class="btn" style="margin-left: 20px; text-align: center"><!--<span>EMail</span>--><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <p>Coding with <img src="images/coffee.png" alt="coffee" draggable="false" height="16px" width="16px"></img>, <img src="images/pizza.png" alt="pizza" draggable="false" height="16px" width="16px"></img> and <img src="images/heart.png" alt="love" draggable="false" height="16px" width="16px"></img> in Novi Sad, Serbia.</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      for (var i = 0; i < 3; i++)
+      {
+        var element = document.getElementsByClassName('btn');
+        style = window.getComputedStyle(element[i]),
+        height = style.getPropertyValue('height');
+        element[i].style.width = height;
+      }
+    </script>
+  </body>
+</html>
