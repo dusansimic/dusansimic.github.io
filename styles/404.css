@@ -8,11 +8,16 @@
   src: url('../menlo.ttf');
 }
 
+@font-face {
+  font-family: "Noto";
+  src: url('../noto.ttf');
+}
+
 html, body {
   margin: 0;
   width: 100%;
   height: 100%;
-  font-family: "DejaVu";
+  font-family: "DejaVu", "Noto";
 }
 
 #wrapper {
