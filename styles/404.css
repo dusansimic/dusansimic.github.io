@@ -17,7 +17,7 @@ html, body {
   margin: 0;
   width: 100%;
   height: 100%;
-  font-family: "DejaVu", "Noto";
+  font-family: "Jura", "Noto", sans-serif;
 }
 
 #wrapper {
@@ -25,6 +25,7 @@ html, body {
   height: 100%;
   background-color: #282828;
   color: #dbdbdb;
+  font-size: 18px;
 }
 
 #body {
@@ -52,6 +53,7 @@ html, body {
 #my_name {
   text-align: center;
   margin: 10 auto;
+  font-size: 36px;
 }
 
 #about {
