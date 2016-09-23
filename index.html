@@ -5,7 +5,12 @@
     <title>dušan simić</title>
     <link rel="stylesheet" type="text/css" href="styles/index.css" />
     <link rel="icon" href="icon.png" />
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" media="all">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.0/lib/js/emojione.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.0/assets/css/emojione.min.css"/>-->
+    <script src="http://twemoji.maxcdn.com/twemoji.min.js"></script>
+    <link rel="stylesheet" href="styles/font-awesome.min.css" media="all">
     <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
   </head>
   <body>
@@ -18,10 +23,10 @@
           <p id="about">Programmer, hacker, maker, gamer and Linux user.</p>
           <div class="e1a-coffee" height="32px" width="32px"></div>
           <div id="social">
-            <a href="https://twitter.com/dusan__simic" class="btn" style="text-align: center"><!--<span>Twitter</span>--><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://www.reddit.com/user/dusansimic/" class="btn" style="margin-left: 20px; text-align: center"><!--<spanReddit--><i class="fa fa-reddit-alien" aria-hidden="true"></i></a>
-            <a href="https://github.com/dusansimic" class="btn" style="margin-left: 20px; text-align: center"><!--<span>GitHub</span>--><i class="fa fa-github" aria-hidden="true"></i></a>
-            <a href="mailto:simic.dusan@jjzmaj.edu.rs" class="btn" style="margin-left: 20px; text-align: center"><!--<span>EMail</span>--><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/dusan__simic" class="btn-social" style="text-align: center"><!--<span>Twitter</span>--><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.reddit.com/user/dusansimic/" class="btn-social" style="margin-left: 20px; text-align: center"><!--<spanReddit--><i class="fa fa-reddit-alien" aria-hidden="true"></i></a>
+            <a href="https://github.com/dusansimic" class="btn-social" style="margin-left: 20px; text-align: center"><!--<span>GitHub</span>--><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="mailto:simic.dusan@jjzmaj.edu.rs" class="btn-social" style="margin-left: 20px; text-align: center"><!--<span>EMail</span>--><i class="fa fa-envelope" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
@@ -33,13 +38,20 @@
       </div>
     </div>
     <script type="text/javascript">
-      for (var i = 0; i < 3; i++)
-      {
-        var element = document.getElementsByClassName('btn');
-        style = window.getComputedStyle(element[i]),
-        height = style.getPropertyValue('height');
-        element[i].style.width = height;
-      }
+      $(document).ready(function() {
+        var height = $('.btn-social').css('height');
+        $('.btn-social').css('width', height);
+        /*
+        emojione.imageType = 'png';
+        emojione.sprites = true;
+
+        $(".emojione").each(function() {
+            var original = $(this).html();
+            // use .shortnameToImage if only converting shortnames (for slightly better performance)
+            var converted = emojione.shortnameToImage(original);
+            $(this).html(converted);
+        });*/
+      });
     </script>
   </body>
 </html>

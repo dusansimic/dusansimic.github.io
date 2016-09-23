@@ -17,7 +17,7 @@ html, body {
   margin: 0;
   width: 100%;
   height: 100%;
-  font-family: "Jura", "Noto", sans-serif;
+  font-family: "Jura", sans-serif;
 }
 
 #wrapper {
@@ -76,7 +76,15 @@ html, body {
   padding: 5px;
 }
 
-#social .btn {
+.btn-social, .btn-social:active, .btn-social:hover, .btn-social:invalid, .btn-social:visited {
+  text-decoration: none;
+  color: #dbdbdb;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#social .btn-social {
   /*
   width: 18px;
   height: 18px;
