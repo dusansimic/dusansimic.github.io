@@ -69,6 +69,10 @@ html, body {
   padding: 5px;
 }
 
+.btn-social:hover {
+  box-shadow: 0 0 10px #dbdbdb;
+}
+
 #social .btn-social {
   /*
   width: 18px;
@@ -93,5 +97,6 @@ a, a:visited, a:active, a:default, a:invalid {
 
 a:hover {
   text-decoration: underline;
+  text-shadow: 0 0 10px #dbdbdb;
   color: #dbdbdb;
 }
