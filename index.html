@@ -5,10 +5,9 @@
     <title>dušan simić</title>
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="icon" href="icon.png" />
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/emojione/1.5.2/assets/css/emojione.min.css"/>
 
     <link rel="stylesheet" href="css/font-awesome.min.css" media="all">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
   </head>
   <body>
     <div id="wrapper">
@@ -21,7 +20,8 @@
           <div class="e1a-coffee" height="32px" width="32px"></div>
           <div id="social">
             <a href="https://twitter.com/dusan__simic" class="btn-social" style="text-align: center"><!--<span>Twitter</span>--><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://www.reddit.com/user/dusansimic/" class="btn-social" style="margin-left: 20px; text-align: center"><!--<spanReddit--><i class="fa fa-reddit-alien" aria-hidden="true"></i></a>
+            <a href="https://instagram.com/dusan__simic" class="btn-social" style="margin-left: 20px; text-align: center"><!--<span>Instagram</span>--><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <!--<a href="https://www.reddit.com/user/dusansimic/" class="btn-social" style="margin-left: 20px; text-align: center"><span>Reddit</span><i class="fa fa-reddit-alien" aria-hidden="true"></i></a>-->
             <a href="https://github.com/dusansimic" class="btn-social" style="margin-left: 20px; text-align: center"><!--<span>GitHub</span>--><i class="fa fa-github" aria-hidden="true"></i></a>
             <a href="mailto:simic.dusan@jjzmaj.edu.rs" class="btn-social" style="margin-left: 20px; text-align: center"><!--<span>EMail</span>--><i class="fa fa-envelope" aria-hidden="true"></i></a>
           </div>
@@ -40,19 +40,24 @@
         </p>-->
       </div>
     </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/emojione/1.5.2/lib/js/emojione.min.js"></script>
+
     <script type="text/javascript">
-      $(document).ready(function() {
+      $(document).ready(() => {
         $('.btn-social').width($('.btn-social').height());
 
-        emojione.imageType = 'png';
+        /*emojione.imageType = 'png';
         emojione.sprites = true;
-
-        $(".emojione").each(function() {
-            var original = $(this).html();
-            // use .shortnameToImage if only converting shortnames (for slightly better performance)
-            var converted = emojione.shortnameToImage(original);
-            $(this).html(converted);
-        });
+        
+        $(".emojione").each((i, self) => {
+          let original = $(self).html();
+          // use .shortnameToImage if only converting shortnames (for slightly better performance)
+          let converted = emojione.shortnameToImage(original);
+          $(self).html(converted);
+          console.log(self);
+        });*/
       });
     </script>
   </body>
