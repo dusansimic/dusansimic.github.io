@@ -2,10 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>dušan simić</title>
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="icon" href="icon.png" />
-    <link rel="stylesheet" href="http://cdn.jsdelivr.net/emojione/1.5.2/assets/css/emojione.min.css"/>
+    <!--<link rel="stylesheet" href="http://cdn.jsdelivr.net/emojione/1.5.2/assets/css/emojione.min.css"/>-->
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css" media="all">
   </head>
@@ -40,24 +42,8 @@
       </div>
     </div>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="http://cdn.jsdelivr.net/emojione/1.5.2/lib/js/emojione.min.js"></script>
-
-    <script type="text/javascript">
-      $(document).ready(() => {
-        $('.btn-social').width($('.btn-social').height());
-
-        /*emojione.imageType = 'png';
-        emojione.sprites = true;
-        
-        $(".emojione").each((i, self) => {
-          let original = $(self).html();
-          // use .shortnameToImage if only converting shortnames (for slightly better performance)
-          let converted = emojione.shortnameToImage(original);
-          $(self).html(converted);
-          console.log(self);
-        });*/
-      });
-    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!--<script src="http://cdn.jsdelivr.net/emojione/1.5.2/lib/js/emojione.min.js"></script>-->
+    <script src="js/onload.js"></script>
   </body>
 </html>
