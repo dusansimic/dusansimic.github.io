@@ -14,7 +14,7 @@ html, body {
   height: 100%;
   background-color: #282828;
   color: #dbdbdb;
-  font-size: 18px;
+  font-size: 1.125em;
 }
 
 #body {
@@ -42,7 +42,7 @@ html, body {
 #my_name {
   text-align: center;
   margin: 10 auto;
-  font-size: 38px;
+  font-size: 2.5em;
 }
 
 #about {
@@ -83,7 +83,7 @@ html, body {
   height: 18px;
   text-align: center;
   */
-  font-size: 24px;
+  font-size: 1.4em;
 }
 
 #footer {
