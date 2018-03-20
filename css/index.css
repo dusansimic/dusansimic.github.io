@@ -1,19 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
+:root {
+  --color-dark: #282828;
+  --color-light: #dbdbdb;
+}
+
 html, body {
   margin: 0;
   width: 100%;
   height: 100%;
   font-family: 'Ubuntu', sans-serif;
-  background-color: #282828;
+  background-color: var(--color-dark);
   overflow: hidden;
 }
 
 #wrapper {
   width: 100%;
   height: 100%;
-  background-color: #282828;
-  color: #dbdbdb;
+  background-color: var(--color-dark);
+  color: var(--color-light);
   font-size: 1.125em;
 }
 
@@ -33,7 +38,7 @@ html, body {
   height: 150px;
   width: 150px;
   border-radius: 75px;
-  border: 2px solid #dbdbdb;
+  border: 2px solid var(--color-light);
   background: url("../images/profile.jpg") no-repeat;
   background-size: 165px;
   margin: 0 auto;
@@ -59,22 +64,22 @@ html, body {
 
 .btn, .btn:active, .btn:hover, .btn:invalid, .btn:visited {
   text-decoration: none;
-  color: #dbdbdb;
-  border: 1px solid #dbdbdb;
+  color: var(--color-light);
+  border: 1px solid var(--color-light);
   border-radius: 5px;
   padding: 5px;
 }
 
 .btn-social, .btn-social:active, .btn-social:hover, .btn-social:invalid, .btn-social:visited {
   text-decoration: none;
-  color: #dbdbdb;
-  border: 1px solid #dbdbdb;
+  color: var(--color-light);
+  border: 1px solid var(--color-light);
   border-radius: 5px;
   padding: 5px;
 }
 
 .btn-social:hover {
-  box-shadow: 0 0 10px #dbdbdb;
+  box-shadow: 0 0 10px var(--color-light);
 }
 
 #social .btn-social {
@@ -96,11 +101,11 @@ html, body {
 
 a, a:visited, a:active, a:default, a:invalid {
   text-decoration: none;
-  color: #dbdbdb;
+  color: var(--color-light);
 }
 
 a:hover {
   text-decoration: underline;
-  text-shadow: 0 0 10px #dbdbdb;
-  color: #dbdbdb;
+  text-shadow: 0 0 10px var(--color-light);
+  color: var(--color-light);
 }
