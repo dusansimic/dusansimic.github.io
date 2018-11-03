@@ -17,7 +17,12 @@ html, body {
   height: 100%;
   background-color: var(--color-dark);
   color: var(--color-light);
-  font-size: 1.125em;
+  font-size: 0.95em;
+}
+@media (min-width: 768px) {
+  #wrapper {
+    font-size: 1.125em;
+  }
 }
 #body {
   display: flex;
