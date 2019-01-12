@@ -1,99 +1,149 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400&subset=latin-ext');
 
-:root {
-  --color-dark: #282828;
-  --color-light: #dbdbdb;
+body {
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
 }
-html, body {
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  font-family: 'Ubuntu', sans-serif;
-  background-color: var(--color-dark);
-  overflow: hidden;
+h1 {
+	font-size: 3em;
 }
-#wrapper {
-  width: 100%;
-  height: 100%;
-  background-color: var(--color-dark);
-  color: var(--color-light);
-  font-size: 0.95em;
+h3 {
+	font-size: 1.6em;
 }
-@media (min-width: 768px) {
-  #wrapper {
-    font-size: 1.125em;
-  }
+h4 {
+	font-size: 1.4em;
+}
+h5 {
+	font-size: 1.2em;
+}
+@media screen and (max-width: 767px) {
+	h1 {
+		font-size: 2em;
+	}
+	h5 {
+		font-size: 1.1em;
+	}
+}
+#splash {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background: #1f1f1f;
+	color: #e6e6e6;
+}
+#wavy-below-splash {
+	height: calc(100vw / 7);
+	width: 100%;
+	background: #1f1f1f;
+}
+#wavy-bg {
+	height: calc(100vw / 7);
+}
+@media screen and (max-width: 767px) {
+	#wavy-below-splash {
+		height: calc(100vw / 7);
+	}
+	#wavy-bg {
+		height: calc(100vw / 7);
+	}
 }
 #body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
+	min-height: 100px;
+	width: 100%;
+	background: #fff;
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
-#info {
-  display: block;
+#profile-picture {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	background: url("../images/newprofile.png") no-repeat;
+	background-size: 250px;
+	margin: 0 auto;
 }
-#pic {
-  height: 150px;
-  width: 150px;
-  border-radius: 75px;
-  border: 2px solid var(--color-light);
-  background: url("../images/profile.jpg") no-repeat;
-  background-size: 165px;
-  margin: 0 auto;
+.about-paragraph {
+	font-size: 1.2em;
 }
-#my_name {
-  text-align: center;
-  margin: 10 auto;
-  font-size: 2.5em;
+.pinned-repo-title {
+	display: inline-block;
 }
-#about {
-  text-align: center;
-  margin: 10 auto;
+.language-pill {
+	display: inline-block;
+	max-width: auto;
+	border-radius: 5px;
+	padding: 2px 5px;
 }
-#social {
-  margin: 10 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.container {
+	width: 70%;
+	margin: 0 auto;
 }
-.btn-social {
-  font-size: 1.4em;
-  text-decoration: none;
-  color: var(--color-light);
-  border: 1px solid var(--color-light);
-  border-radius: 5px;
-  padding: 5px;
-  margin: 5px;
-  text-align: center;
-  box-shadow: 0 0 10px #dbdbdb00;
-  -webkit-transition: box-shadow 250ms ease;
-  -moz-transition: box-shadow 250ms ease;
-  -ms-transition: box-shadow 250ms ease;
-  -o-transition: box-shadow 250ms ease;
-  transition: box-shadow 250ms ease;
+.row {
+	display: flex;
 }
-.btn-social:hover {
-  box-shadow: 0 0 10px #dbdbdbff;
+.column {
+	flex: 1;
 }
-#footer {
-  text-align: center;
-  bottom: 0;
-  margin: 0;
-  position: absolute;
-  width: 100%;
+@media screen and (max-width: 767px) {
+	.container {
+		width: 90%;
+	}
+	.row {
+		display: block;
+	}
 }
-.location-link {
-  text-decoration: none;
-  color: var(--color-light);
-  border-bottom: 1px solid #dbdbdb00;
-  -webkit-transition: border 250ms ease;
-  -moz-transition: border 250ms ease;
-  -ms-transition: border 250ms ease;
-  -o-transition: border 250ms ease;
-  transition: border 250ms ease;
+footer {
+	height: 300px;
+	width: 100%;
+	background: #e6e6e6;
+	font-size: 1.1em;
+	font-weight: 300;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.location-link:hover {
-  border-bottom: 1px solid #dbdbdbff;
+footer #footer-data {
+	height: 50%;
+	width: 50%;
+	position: relative;
+}
+footer #footer-data #footer-license {
+	position: absolute;
+	bottom: 0;
+}
+@media screen and (max-width: 767px) {
+	footer #footer-data {
+		width: 90%;
+	}
+}
+.link {
+	border-bottom: 1px solid #0000ff00;
+	-webkit-transition: border 250ms ease;
+	-moz-transition: border 250ms ease;
+	-ms-transition: border 250ms ease;
+	-o-transition: border 250ms ease;
+	transition: border 250ms ease;
+	text-decoration: none;
+	color: blue;
+}
+.link:hover {
+	color: blue;
+	border-bottom: 1px solid #0000ffff;
+}
+.link:visited {
+	color: blue;
+}
+.dark-link {
+	border-bottom: 1px solid #00000000;
+	color: black;
+}
+.dark-link:hover {
+	color: black;
+	border-bottom: 1px solid #000000ff;
+}
+.dark-link:visited {
+	color: black;
 }
