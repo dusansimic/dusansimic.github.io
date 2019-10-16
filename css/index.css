@@ -34,7 +34,7 @@ h5 {
 	background: #1f1f1f;
 	color: #e6e6e6;
 }
-#wavy-below-splash {
+/*#wavy-below-splash {
 	height: calc(100vw / 7);
 	width: 100%;
 	background: #1f1f1f;
@@ -49,7 +49,7 @@ h5 {
 	#wavy-bg {
 		height: calc(100vw / 7);
 	}
-}
+}*/
 #body {
 	min-height: 100px;
 	width: 100%;
